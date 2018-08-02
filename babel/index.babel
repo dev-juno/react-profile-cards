@@ -1,0 +1,22 @@
+function Person(test) {
+  return (
+  <div className="person">
+    <h1>{test.name}</h1>
+    <p>{test.age}</p>
+    <p>{test.job}</p>
+  </div>
+  );
+}
+
+var app = (
+    <div>
+        <Person name="Jasmin" age="30" job="Painter"/>
+        <Person name="Hector" age="28" job="Developer"/>
+        <Person name="Dina" age="22" job="Photographer"/>
+        <Person name="Lisa" age="20" job="Hairdresser"/>
+        <Person name="David" age="25" job="Vet"/>
+    </div>
+);
+
+ReactDOM.render(app,
+document.querySelector('#app'));

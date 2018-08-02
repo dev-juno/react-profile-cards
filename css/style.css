@@ -1,0 +1,13 @@
+.person{
+  display:inline-block;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 2px #ccc;
+  padding:10px;
+  margin:10px;
+  width:200px;
+  color:#333;
+}
+
+h1{
+color:#129f8d;
+}
